@@ -19,7 +19,8 @@ namespace RabbitMq.Producer.Conrtrollers
         }
         [HttpGet]
         public IActionResult Index()
-         {
+         
+        {
             using var connection = _rabbitMqService.CreateChannel();
             using var model = connection.CreateModel();
             model.QueueDeclare("DataPipeline", durable: true, exclusive: false, autoDelete: false, arguments: null);

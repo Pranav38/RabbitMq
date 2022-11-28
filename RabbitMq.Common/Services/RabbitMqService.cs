@@ -23,10 +23,11 @@ namespace RabbitMq.Common.Services
         {
             ConnectionFactory connection = new ConnectionFactory()
             {
-                Uri = new Uri("amqp://guest:guest@localhost:50083") 
+                Uri = new Uri("amqp://guest:guest@localhost:56030") 
                 
             };
             // connection.DispatchConsumersAsync = true;
+            
             var channel = connection.CreateConnection();
             return channel;
            

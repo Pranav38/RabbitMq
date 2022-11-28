@@ -11,8 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMq.Common", "RabbitMq
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{4132B23F-5293-4F2E-BE6D-270960CC6EB5}"
 	ProjectSection(SolutionItems) = preProject
-		C:\Users\pranav.patel\Desktop\Rabbitmq\deployment.yaml = C:\Users\pranav.patel\Desktop\Rabbitmq\deployment.yaml
-		C:\Users\pranav.patel\Desktop\Rabbitmq\service.yaml = C:\Users\pranav.patel\Desktop\Rabbitmq\service.yaml
+		..\..\..\tgir-S01E06\s01\e05\k8s\persistentvolumeclaim.yml = ..\..\..\tgir-S01E06\s01\e05\k8s\persistentvolumeclaim.yml
+		C:\Users\pranav.patel\Desktop\Rabbitmq\deploymentold.yaml = C:\Users\pranav.patel\Desktop\Rabbitmq\deploymentold.yaml
+		..\..\..\tgir-S01E06\s01\e05\k8s\service.yml = ..\..\..\tgir-S01E06\s01\e05\k8s\service.yml
+		..\..\..\tgir-S01E06\s01\e05\k8s\statefulset.yml = ..\..\..\tgir-S01E06\s01\e05\k8s\statefulset.yml
+		C:\Users\pranav.patel\Desktop\Rabbitmq\serviceold.yaml = C:\Users\pranav.patel\Desktop\Rabbitmq\serviceold.yaml
 	EndProjectSection
 EndProject
 Global
